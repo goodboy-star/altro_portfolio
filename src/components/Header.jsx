@@ -51,6 +51,7 @@ export default function NavbarContent() {
                     <Link to="/About">About</Link>
                 </nav>
             </CSSTransition>
+            <div></div>
             <button onClick={toggleNav} className="Burger">
                 <MenuOutlined style={{ color: 'white' }} />
             </button>

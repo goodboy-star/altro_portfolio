@@ -3,17 +3,19 @@
     top: 0;
     width: 100%;
     /* min-width: 400px; */
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 60% 200px;
     grid-template-areas: "logo nav";
     background-size: cover;
     /* z-index: 1; */
     padding-top: 20px;
-    align-items: center;
 }
 
 .logo-section {
-    margin-left: 8%;
+    margin-left: 15%;
+    width: 50%;
     /* flex: 1; */
+    display: flex;
     align-items: center;
 }
 
@@ -36,10 +38,9 @@
 }
 
 .Nav {
-    padding-left: 10%;
     display: grid;
     grid-area: nav;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-items: center;
     font-family: "Poppins";
