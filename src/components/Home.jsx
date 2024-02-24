@@ -22,7 +22,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='home-main-center'>
-                    <img src={logo} alt='' style={{ height: '100px' }}></img>
+                    <img src={logo} alt='' style={{ height: '170px' }}></img>
                 </div>
                 <div className='home-main-right'>
                     <div className="circles text-part">

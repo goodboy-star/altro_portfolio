@@ -3,17 +3,17 @@
     top: 0;
     width: 100%;
     /* min-width: 400px; */
-    display: grid;
+    display: flex;
     grid-template-areas: "logo nav";
     background-size: cover;
     /* z-index: 1; */
     padding-top: 20px;
+    align-items: center;
 }
 
 .logo-section {
-    margin-left: 15%;
-    flex: 1;
-    display: flex;
+    margin-left: 8%;
+    /* flex: 1; */
     align-items: center;
 }
 
@@ -36,6 +36,7 @@
 }
 
 .Nav {
+    padding-left: 10%;
     display: grid;
     grid-area: nav;
     grid-template-columns: repeat(5, auto);
@@ -46,7 +47,7 @@
 
 .Nav>a {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     transition: 0.5s;
     text-decoration: none;
