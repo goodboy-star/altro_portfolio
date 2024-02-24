@@ -1,7 +1,7 @@
 import '../styles/footer.css'
-import facebook from '../assets/facebook.png'
+import facebook from '../assets/facebook.webp'
 import discord from '../assets/discord.webp'
-import instagram from '../assets/instagram.png'
+import instagram from '../assets/instagram.webp'
 import behance from '../assets/behance.png'
 
 function Footer() {
