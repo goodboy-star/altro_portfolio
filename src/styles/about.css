@@ -1,0 +1,49 @@
+.about-main {
+    color: white;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.about-me {
+    color: #eb4a4a;
+    font-family: "Gotham";
+    font-weight: bold;
+    font-size: 64px;
+    text-shadow: 0.0625pc 0in 1.0625pc rgba(255, 0, 0, .5);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.main-box {
+    box-shadow: 0pc 0in .0625in #eb4a4a;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    border-left-width: .010416667in;
+}
+
+.main-box:hover {
+    box-shadow: 0pt 0pt 1.875pc #f00;
+}
+
+.content {
+    justify-content: center;
+    font-size: 17.25pt;
+    font-family: "Poppins";
+    text-shadow: 0in 0pc 3px #fff;
+    padding: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.content:hover {
+    display: flex;
+    text-shadow: 0in 0pt .625pc #fff;
+    transition: text-shadow .3s ease-in-out;
+}

@@ -1,0 +1,35 @@
+.footer-section {
+    padding: 100px 0 50px 0;
+    align-items: center;
+}
+
+.footer-icon {}
+
+.icon-group {
+    text-align: left;
+}
+
+.footer-icon>img {
+    margin-top: 20px;
+    height: 50px;
+    width: 60px;
+}
+
+.footer-icon>img:hover {
+    scale: 1.1;
+}
+
+.behance-logo-heading {
+    text-decoration: none;
+    color: white;
+    font-family: "Gotham";
+    font-size: 24px;
+}
+
+.behance-logo-heading:hover {
+    color: #eb4a4a;
+}
+
+.behance-img {
+    height: 50px;
+}

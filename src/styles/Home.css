@@ -1,0 +1,120 @@
+.home-section {
+    color: white;
+    padding: 0 2%;
+}
+
+.home-main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.home-main-left,
+.home-main-center,
+.home-main-right {
+    width: 33%;
+}
+
+.home-main-left {
+    font-family: "Gotham";
+    line-height: 20px;
+    /* font-weight: 1000; */
+}
+
+.home-main-left-container {
+    padding-left: 100px;
+
+}
+
+.greeting {
+    font-weight: 700;
+    font-size: 64px;
+    display: flex;
+}
+
+.greeting-name {
+    padding-left: 30px;
+    color: #eb4a4a;
+    letter-spacing: 3px;
+}
+
+.greeting-me {
+    font-size: .304166667in;
+    font-family: "Poppins";
+    line-height: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .home-main {
+        display: block;
+    }
+
+    .home-main-left,
+    .home-main-center,
+    .home-main-right {
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+
+.button {
+    transition: background-color .3s;
+    padding-top: 0.75rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.75rem;
+    padding-left: 20px;
+}
+
+.small-circle img {
+    position: relative;
+    left: 1.385416667in;
+    top: -.729166667in;
+}
+
+.text-part {
+    text-align: left;
+}
+
+.expertsOn {
+    color: #eb4a4a;
+    font-family: "Poppins";
+    font-size: 36px;
+    line-height: 20px;
+}
+
+.web-app {
+    font-size: 35px;
+    font-family: "Poppins";
+    text-shadow: 0in 0pc 3px #fff;
+    line-height: 50px;
+}
+
+.hey {
+    font-weight: 800;
+    font-size: .229166667in;
+    font-family: "Inter";
+    line-height: 30px;
+    text-shadow: .01pc 0pt 12.75pt rgba(255, 255, 255, .9);
+}
+
+.hire-me {
+    text-decoration: none;
+    color: white;
+    background-color: #eb4a4a;
+    display: inline-flex;
+    border-radius: 14px;
+    padding-right: 1.5rem;
+    padding-bottom: 0.75rem;
+    padding-left: 20px;
+    padding-top: 0.75rem;
+}
+
+.button__icon-wrapper {
+    margin-right: 10px;
+    color: #7808d0;
+    border-radius: 50%;
+    position: relative;
+    padding-left: 5pt;
+    width: 12pt;
+    background-color: white;
+}
