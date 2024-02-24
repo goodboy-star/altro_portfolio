@@ -10,17 +10,17 @@ function Footer() {
             <div className='icon-group'>
                 <div>
                     <a className='footer-icon' href="#" target='_blank'>
-                        <img src={facebook} alt=''></img>
+                        <img src={facebook} alt='' style={{ width: "40px", paddingLeft: "20px" }}></img>
                     </a>
                 </div>
                 <div>
                     <a className='footer-icon' href="https://discordapp.com/users/917769332157718599" target="_blank" rel="noreferrer">
-                        <img src={discord} alt='' style={{ backgroundImage: 'none' }}></img>
+                        <img src={discord} alt='' style={{ paddingLeft: "6px" }}></img>
                     </a>
                 </div>
                 <div>
                     <a className='footer-icon' href="https://www.instagram.com/anasdesigns.__/" target="_blank" rel="noreferrer">
-                        <img src={instagram} alt=''></img>
+                        <img src={instagram} alt='' style={{ width: "70px" }}></img>
                     </a>
                 </div>
             </div>
